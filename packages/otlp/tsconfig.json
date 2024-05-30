@@ -1,0 +1,15 @@
+{
+  "include": ["types/**/*"],
+  "compilerOptions": {
+    "rootDir": "types",
+    "module": "node16",
+    "lib": ["es6"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "types": [],
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

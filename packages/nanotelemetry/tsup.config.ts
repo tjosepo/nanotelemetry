@@ -1,11 +1,10 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["src"],
+  entry: ["src", "!src/**/*.test.ts"],
   outDir: "dist",
   format: "esm",
-  dts: false,
+  dts: true,
   clean: true,
   bundle: false,
-  silent: true,
 });

@@ -1,0 +1,8 @@
+{
+  "name": "@nanotelemetry/otlp",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./v1": "./types/v1.d.ts"
+  }
+}

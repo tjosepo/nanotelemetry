@@ -1,14 +1,12 @@
 {
-  "name": "nanotelemetry",
-  "version": "0.1.0",
+  "name": "@nanotelemetry/monorepo",
+  "private": true,
   "type": "module",
-  "author": "tjosepo",
-  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "turbo run dev",
+    "test": "turbo run test"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
-    "tsup": "^8.0.2"
+    "turbo": "^1.13.3"
   }
 }
