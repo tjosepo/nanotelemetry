@@ -1,2 +1,4 @@
 packages:
-- packages/*
+  - packages/nanotelemetry
+  - packages/nanotelemetry-react
+  - examples/*
